@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="RunCucumberTest" time="8.078" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\adams\Desktop\School\ECSE-429\Project\part2\testing\target\test-classes;C:\Users\adams\Desktop\School\ECSE-429\Project\part2\testing\target\classes;C:\Users\adams\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\adams\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\adams\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\adams\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\adams\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\adams\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\adams\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\adams\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\adams\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\adams\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\adams\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\adams\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\adams\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\adams\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\adams\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\adams\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\adams\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\adams\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\adams\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\adams\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\adams\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\adams\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\adams\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\adams\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\adams\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\adams\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\adams\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\adams\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\adams\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\adams\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\adams\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\adams\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\adams\AppData\Local\Temp\surefire2459928937559908210\surefirebooter-20241105191324523_3.jar C:\Users\adams\AppData\Local\Temp\surefire2459928937559908210 2024-11-05T19-13-24_448-jvmRun1 surefire-20241105191324523_1tmp surefire_0-20241105191324523_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\adams\Desktop\School\ECSE-429\Project\part2\testing\target\test-classes;C:\Users\adams\Desktop\School\ECSE-429\Project\part2\testing\target\classes;C:\Users\adams\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\adams\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\adams\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\adams\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\adams\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\adams\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\adams\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\adams\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\adams\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\adams\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\adams\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\adams\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\adams\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\adams\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\adams\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\adams\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\adams\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\adams\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\adams\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\adams\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\adams\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\adams\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\adams\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\adams\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\adams\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\adams\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\adams\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\adams\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\adams\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\adams\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\adams\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\adams\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\adams\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\adams\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\adams"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\adams\Desktop\School\ECSE-429\Project\part2\testing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\adams\AppData\Local\Temp\surefire2459928937559908210\surefirebooter-20241105191324523_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
+    <property name="user.name" value="adams"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\adams\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\adams\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Users\adams\Desktop\School\ECSE-429\Project\part2\testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="cucumber.execution.order" value="reverse"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Users\adams\.cargo\bin;C:\Users\adams\AppData\Local\Microsoft\WindowsApps;C:\Users\adams\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\adams\AppData\Local\GitHubDesktop\bin;C:\Users\adams\AppData\Local\Programs\Python\Python310;C:\Users\adams\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\adams\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="1. Create a task with title, description, and doneStatus=false" classname="Create a To-Do List Item" time="1.866">
+    <system-out><![CDATA[Running scenario: 1. Create a task with title, description, and doneStatus=false
+]]></system-out>
+  </testcase>
+  <testcase name="2. Create a task with title, description, and doneStatus=true" classname="Create a To-Do List Item" time="0.417">
+    <system-out><![CDATA[Running scenario: 2. Create a task with title, description, and doneStatus=true
+]]></system-out>
+  </testcase>
+  <testcase name="3. Fail to create a task with no title, no description, and doneStatus=false" classname="Create a To-Do List Item" time="0.475">
+    <system-out><![CDATA[Running scenario: 3. Fail to create a task with no title, no description, and doneStatus=false
+]]></system-out>
+  </testcase>
+  <testcase name="4. Retrieve all To-Do List Items" classname="Retrieve To-Do List Items" time="0.492">
+    <system-out><![CDATA[Running scenario: 4. Retrieve all To-Do List Items
+]]></system-out>
+  </testcase>
+  <testcase name="5. Retrieve all To-Do List Items where doneStatus=false" classname="Retrieve To-Do List Items" time="0.469">
+    <system-out><![CDATA[Running scenario: 5. Retrieve all To-Do List Items where doneStatus=false
+]]></system-out>
+  </testcase>
+  <testcase name="6. Fail to retrieve To-Do List Items where doneStatus=maybe" classname="Retrieve To-Do List Items" time="0.425">
+    <system-out><![CDATA[Running scenario: 6. Fail to retrieve To-Do List Items where doneStatus=maybe
+]]></system-out>
+  </testcase>
+  <testcase name="7. Update the doneStatus of a To-Do List Item" classname="Update a To-Do List Item" time="0.413">
+    <system-out><![CDATA[Running scenario: 7. Update the doneStatus of a To-Do List Item
+]]></system-out>
+  </testcase>
+  <testcase name="8. Update the description of a To-Do List Item" classname="Update a To-Do List Item" time="0.411">
+    <system-out><![CDATA[Running scenario: 8. Update the description of a To-Do List Item
+]]></system-out>
+  </testcase>
+  <testcase name="9. Fail to update a To-Do List Item with an empty title" classname="Update a To-Do List Item" time="0.383">
+    <system-out><![CDATA[Running scenario: 9. Fail to update a To-Do List Item with an empty title
+]]></system-out>
+  </testcase>
+  <testcase name="10. Delete a To-Do List Item that is completed" classname="Delete a To-Do List Item" time="0.447">
+    <system-out><![CDATA[Running scenario: 10. Delete a To-Do List Item that is completed
+]]></system-out>
+  </testcase>
+  <testcase name="11. Delete a To-Do List Item that is incomplete" classname="Delete a To-Do List Item" time="0.413">
+    <system-out><![CDATA[Running scenario: 11. Delete a To-Do List Item that is incomplete
+]]></system-out>
+  </testcase>
+  <testcase name="12. Fail to delete a To-Do List Item that is not found" classname="Delete a To-Do List Item" time="0.421">
+    <system-out><![CDATA[Running scenario: 12. Fail to delete a To-Do List Item that is not found
+]]></system-out>
+  </testcase>
+  <testcase name="13. Retrieve a To-Do List Item in JSON format" classname="Retrieve To-Do List Item in Different Formats" time="0.396">
+    <system-out><![CDATA[Running scenario: 13. Retrieve a To-Do List Item in JSON format
+]]></system-out>
+  </testcase>
+  <testcase name="14. Retrieve a To-Do List Item in XML format" classname="Retrieve To-Do List Item in Different Formats" time="0.393">
+    <system-out><![CDATA[Running scenario: 14. Retrieve a To-Do List Item in XML format
+]]></system-out>
+  </testcase>
+  <testcase name="15. Fail to retrieve a To-Do List Item in HTML format" classname="Retrieve To-Do List Item in Different Formats" time="0.4">
+    <system-out><![CDATA[Running scenario: 15. Fail to retrieve a To-Do List Item in HTML format
+]]></system-out>
+  </testcase>
+</testsuite>
