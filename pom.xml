@@ -52,12 +52,6 @@
             <artifactId>jackson-annotations</artifactId>
             <version>2.14.1</version>
         </dependency>
-        <!-- Deserializing XML -->
-        <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-            <version>2.3.1</version>
-        </dependency>
     </dependencies>
 </project>
 

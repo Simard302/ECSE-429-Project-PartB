@@ -9,14 +9,17 @@ Feature: Delete a To-Do List Item
             | Get Bread  | Buy a loaf of bread at the groceries   | true       | 5  |
             | Get Butter | Buy a stick of butter at the groceries | true       | 6  |
 
+    @Test10
     Scenario: 10. Delete a To-Do List Item that is completed
         When the user makes a "DELETE" request to the "/todos/5" endpoint
         Then no To-Do List Item with id "5" should exist
 
+    @Test11
     Scenario: 11. Delete a To-Do List Item that is incomplete
         When the user makes a "DELETE" request to the "/todos/3" endpoint
         Then no To-Do List Item with id "3" should exist
 
+    @Test12
     Scenario: 12. Fail to delete a To-Do List Item that is not found
         When the user makes a "DELETE" request to the "/todos/7" endpoint
         Then the user should receive a 404 code error message

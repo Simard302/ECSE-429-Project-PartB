@@ -7,7 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = "stepdefinitions"
+        glue = "stepdefinitions",
+        tags = ""
 )
 public class RunCucumberTest {
 

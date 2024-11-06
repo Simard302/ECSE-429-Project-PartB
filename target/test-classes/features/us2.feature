@@ -9,6 +9,7 @@ Feature: Retrieve To-Do List Items
             | Get Bread  | Buy a loaf of bread at the groceries   | true       | 5  |
             | Get Butter | Buy a stick of butter at the groceries | true       | 6  |
 
+    @Test4
     Scenario: 4. Retrieve all To-Do List Items
         When the user makes a "GET" request to the "/todos" endpoint
         Then the response contains a To-Do List Item with the following ids
@@ -22,6 +23,7 @@ Feature: Retrieve To-Do List Items
         And the To-Do List Item with id "5" should have title "Get Bread"
         And the To-Do List Item with id "6" should have title "Get Butter"
 
+    @Test5
     Scenario: 5. Retrieve all To-Do List Items where doneStatus=false
         When the user makes a "GET" request to the "/todos?doneStatus=false" endpoint
         Then the response contains a To-Do List Item with the following ids
@@ -31,6 +33,7 @@ Feature: Retrieve To-Do List Items
         And the To-Do List Item with id "3" should have title "Get Milk"
         And the To-Do List Item with id "4" should have title "Get Eggs"
 
+    @Test6
     Scenario: 6. Fail to retrieve To-Do List Items where doneStatus=maybe
         When the user makes a "GET" request to the "/todos?doneStatus=maybe" endpoint
         Then the user should receive an empty list of To-Do List Items
