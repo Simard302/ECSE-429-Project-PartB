@@ -1,7 +1,7 @@
 Feature: Retrieve To-Do List Items
 
     Background: Existing To-Do List Items with various doneStatus values
-        Given the application is running on port "4567"
+        Given the application is running on port "1234"
         And the following To-Do List Items exist
             | title      | description                            | doneStatus | id |
             | Get Milk   | Buy 2% milk at the groceries           | false      | 3  |
