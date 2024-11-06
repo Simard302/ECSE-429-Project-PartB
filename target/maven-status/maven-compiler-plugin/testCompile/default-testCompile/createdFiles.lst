@@ -1,5 +1,0 @@
-RunCucumberTest.class
-dto\TodoRequestDTO.class
-stepdefinitions\GeneralStepDefinitions.class
-dto\TodoResponseDTO.class
-stepdefinitions\DataStepDefinitions.class
